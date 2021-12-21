@@ -251,6 +251,19 @@
 		<table name="Last Calculated Base Pulse Width" address="5d80c" elements="17"/>
 		<table name="Engine Speed" address="5d850" elements="16"/>
 	</table>
+	
+	<table name="Low Pulse Width Fuel Injector Compensation" address="5C15C">
+		<table name="Injector Pulse Width" address="5C13C"/>
+	</table>
+	
+	<table name="Low Pulse Width Fuel Injector Compensation Maximum RPM" address="5BCD4" type="1D" scaling="RPM">
+	</table>
+	
+	<table name="Low Pulse Width Fuel Injector Compensation Maximum IPW" address="5BCD8" type="1D" scaling="BasePulseWidth(ms)">
+	</table>
+		
+	<table name="Low Pulse Width Fuel Injector Compensation Minimum IPW" address="5B8C8" type="1D" scaling="BasePulseWidth(ms)">
+	</table>
 
 	<table name="Cranking Fuel Injector Pulse Width A (ECT)" address="5c252">
 		<table name="Coolant Temperature" address="5be00"/>
